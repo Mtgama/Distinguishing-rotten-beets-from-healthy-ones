@@ -105,9 +105,11 @@ docker compose run test-backend
 ## Git LFS
 
 فایل‌های مدل بزرگ (`.keras`, `.h5`, `.tflite`, `.onnx`) از طریق Git LFS ردیابی می‌شوند.
+برای دانلود وزن ها از لینک https://my.uupload.ir/dl/VXwg6mpz استفاده کنید
 
 ```bash
 # نصب Git LFS (یکبار)
+
 git lfs install
 ```
 
