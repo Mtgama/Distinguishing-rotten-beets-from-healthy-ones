@@ -1,0 +1,3 @@
+Django>=5.0
+# TensorFlow, OpenCV, NumPy are expected to already be installed in the
+# "data-science" pyenv environment used to run this project.

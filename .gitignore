@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Django
+backend/db.sqlite3
+backend/**/migrations/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+website/node_modules/
+website/dist/
+website/.vite/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# TensorFlow / ML artifacts (model file is too large for git, use make_model.py to train)
+*.h5
+*.hdf5
+*.keras
+best_resnet50_beet_model-99.keras
+
+# Logs
+*.log
